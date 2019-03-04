@@ -7,7 +7,7 @@ public class Test {
 		Text text = new Text();
 		text.setText("The Single Principle Responsibility");
 		
-		Printer printer = new Printer(text);
+		Printer printer = new Printer(text);	
 		printer.printText();
 	}
 }
