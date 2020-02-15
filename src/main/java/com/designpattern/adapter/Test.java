@@ -3,7 +3,7 @@ package com.designpattern.adapter;
 public class Test {
 
 	public static void main(String[] args) {
-		Movable bugattiVeyron = new BugattiVeyron();
+		Movable bugattiVeyron = new Audi();
 	    MovableAdapter bugattiVeyronAdapter = new MovableAdapterImpl(bugattiVeyron);
 	   
 	    System.out.println("Speed in KPH = " +bugattiVeyronAdapter.getSpeed());

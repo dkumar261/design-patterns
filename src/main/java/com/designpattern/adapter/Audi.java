@@ -1,6 +1,6 @@
 package com.designpattern.adapter;
 
-public class BugattiVeyron implements Movable {
+public class Audi implements Movable {
 	  
     @Override
     public double getSpeed() {
