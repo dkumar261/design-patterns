@@ -2,7 +2,7 @@ package com.designpattern.solid.openclosedprinciple.v2;
 
 /**
  * 
- * @author T18203
+ * @author Dinesh
  *
  */
 public class Test {
