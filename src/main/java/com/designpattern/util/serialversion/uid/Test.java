@@ -13,7 +13,7 @@ public class Test {
 
 		Address address = new Address("abc", "Malaysia");
 
-//		serializedAddress(address);	
+		serializedAddress(address);	
 		deserializedAddress();
 
 	}
@@ -37,6 +37,5 @@ public class Test {
 		}
 
 		System.out.println(result);
-//		System.out.println(result.ab);
 	}
 }
