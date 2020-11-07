@@ -4,7 +4,7 @@ package com.designpattern.adapter.v2;
  * Adapter Design Pattern Implementation We have two different approaches to
  * implement the adapter pattern. 
  * 
- * Object Adapter Pattern
+ * Object Adapter Pattern.
  */
 public class Test {
 
