@@ -23,6 +23,11 @@ public class Display implements Cloneable{
 	public void setDislayType(String dislayType) {
 		this.dislayType = dislayType;
 	}
+	// implement readResolve method
+    protected Object readResolve()
+    {
+        return display;
+    }
 	
 	@Override
 	public Object clone() {
